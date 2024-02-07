@@ -1,9 +1,9 @@
 # Bluetooth
-bluetooth.device.default_name=OnePlus 11 5G
+bluetooth.device.default_name=OnePlus 12R 5G
 
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
 
 # USB
-vendor.usb.product_string=OnePlus 11 5G
+vendor.usb.product_string=OnePlus 12R 5G

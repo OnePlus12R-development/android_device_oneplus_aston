@@ -6,6 +6,6 @@
 <resources>
 
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple" translatable="false">OnePlus 11 5G</string>
+    <string name="def_device_name_simple" translatable="false">OnePlus 12R 5G</string>
 
 </resources>

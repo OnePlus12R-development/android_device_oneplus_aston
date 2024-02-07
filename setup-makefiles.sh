@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=salami
+export DEVICE=aston
 export DEVICE_COMMON=sm8550-common
 export VENDOR=oneplus
 

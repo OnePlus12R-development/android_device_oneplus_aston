@@ -8,26 +8,26 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from salami device
-$(call inherit-product, device/oneplus/salami/device.mk)
+# Inherit from aston device
+$(call inherit-product, device/oneplus/aston/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_salami
-PRODUCT_DEVICE := salami
+PRODUCT_NAME := lineage_aston
+PRODUCT_DEVICE := aston
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2449
+PRODUCT_MODEL := CPH2585
 
 PRODUCT_SYSTEM_NAME := $(PRODUCT_MODEL)
-PRODUCT_SYSTEM_DEVICE := OP594DL1
+PRODUCT_SYSTEM_DEVICE := OP5D35L1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="CPH2449EEA-user 14 TP1A.220905.001 T.R4T3.159da5c-493-491 release-keys" \
+    PRIVATE_BUILD_DESC="CPH2585IN-user 14 TP1A.220905.001 U.R4T3.1607727_9779-2 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := OnePlus/CPH2449EEA/OP594DL1:14/TP1A.220905.001/T.R4T3.159da5c-493-491:user/release-keys
+BUILD_FINGERPRINT := OnePlus/CPH2585IN/OP5D35L1:14/TP1A.220905.001/U.R4T3.1607727_9779-2:user/release-keys
