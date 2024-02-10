@@ -389,12 +389,11 @@
          Note that a physical cutout should be configured in pixels for the best results.
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M 154,83
-        M 111,83
-        A 43,43 0 1,0 197,83
-        A 43,43 0 1,0 111,83
+        M 632,79
+        M 605,79
+        A 27,27 0 1,0 661,79
+        A 27,27 0 1,0 605,79
         Z
-        @left
     </string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
@@ -403,14 +402,7 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M 0,0
-        H 236
-        V 136
-        H 0
-        Z
-        @left
-    </string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
@@ -419,9 +411,9 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>720</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2463</item> <!-- <item>sensorLocationY</item> -->
-        <item>114</item>  <!-- <item>sensorRadius</item> -->
+        <item>632</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2025</item> <!-- <item>sensorLocationY</item> -->
+        <item>98</item>  <!-- <item>sensorRadius</item> -->
     </integer-array>
 
 </resources>
