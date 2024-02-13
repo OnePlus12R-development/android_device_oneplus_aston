@@ -169,6 +169,14 @@ odm/etc/sensor/config/kailua_mtp_smart_prox.json
 odm/etc/sensor/config/lux_aod.json
 odm/etc/sensor/sensor_config.json
 
+# Oplus Touch
+odm/bin/touchDaemon
+odm/bin/hw/vendor-oplus-hardware-touch-V2-service
+odm/lib64/vendor.oplus.hardware.touch-V2-ndk.so
+odm/etc/vintf/manifest/manifest_touch_aidl.xml
+odm/etc/init/init.touchDaemon.rc
+odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
+
 # Touchscreen firmware
 odm/firmware/tp/23801/FW_S3910_BOE.img
 odm/firmware/tp/23801/FW_S3910_BOE_FAE.img
