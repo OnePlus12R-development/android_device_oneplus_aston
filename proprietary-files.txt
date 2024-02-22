@@ -150,6 +150,13 @@ odm/etc/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel.fw
 odm/etc/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
 odm/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw
 
+# IR
+odm/bin/hw/android.hardware.ir-service
+odm/etc/init/android.hardware.ir-service.rc
+odm/etc/permissions/android.hardware.consumerir.xml
+odm/etc/vintf/manifest/android.hardware.ir-service.xml
+vendor/lib64/hw/consumerir.default.so
+
 # NFC
 odm/etc/nfc/libnfc-mtp-SN220.conf_23861:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_23861:vendor/etc/libnfc-nci.conf
