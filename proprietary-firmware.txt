@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12R (CPH2585_14.0.0.307(EX01)).
+## are from OnePlus 12R (CPH2585_14.0.0.500(EX01)).
 
 abl.img;AB
 aop.img;AB
