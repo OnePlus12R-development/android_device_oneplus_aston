@@ -1,1 +1,1 @@
-require board=kalama|OP5D35L1
+require board=kalama|OP5D35L1|OP5CF9L1
