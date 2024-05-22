@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.settings"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24"/>
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/device_settings_app_name"
+        android:persistent="true"
+        android:theme="@style/Theme.SubSettingsBase">
+
+        <receiver android:name=".BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".battery.BypassChargingTileService"
+            android:label="@string/bypass_charging_tile_title"
+            android:exported="true"
+            android:icon="@drawable/ic_bypass_charging_tile"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name=".battery.BypassChargingSwitchesProvider"
+            android:authorities="org.lineageos.settings.bypasscharging"
+            android:permission="android.permission.WRITE_SECURE_SETTINGS"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+        </provider>
+
+    </application>
+</manifest>

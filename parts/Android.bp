@@ -1,0 +1,33 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "AstonParts",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+
+    static_libs: [
+        "org.lineageos.settings.resources",
+    ],
+
+    required: [
+        "privapp-permissions-parts.xml",
+    ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-parts.xml",
+    src: "privapp-permissions-parts.xml",
+    sub_dir: "permissions",
+    system_ext_specific: true,
+}
