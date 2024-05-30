@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12R (CPH2585_14.0.0.701(EX01)).
+## are from OnePlus 12R (CPH2585_14.0.0.800(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
