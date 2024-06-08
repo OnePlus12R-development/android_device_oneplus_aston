@@ -1,3 +1,10 @@
+soong_namespace {
+    imports: [
+        "hardware/oplus",
+        "vendor/oneplus/aston",
+    ],
+}
+
 cc_library_static {
     name: "libperfmgr-ext-aston",
     vendor: true,
@@ -8,4 +15,5 @@ cc_library_static {
         "android.hardware.power-V4-ndk",
         "libbase",
     ],
+    whole_static_libs: ["vendor.oplus.hardware.touch-V1-ndk"],
 }
