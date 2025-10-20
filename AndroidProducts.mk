@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_aston.mk
+    $(LOCAL_DIR)/custom_aston.mk
