@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "KeyHandlerResTarget",
-    system_ext_specific: true,
+    product_specific: true,
 }
