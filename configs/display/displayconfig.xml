@@ -7,4 +7,62 @@
             <density>480</density>
         </density>
     </densityMapping>
+
+    <screenBrightnessMap interpolation="linear">
+        <point><value>0.0000000000</value><nits>1.9768</nits></point>
+        <point><value>0.0004883289</value><nits>1.9820</nits></point>
+        <point><value>0.0250024416</value><nits>2.7922</nits></point>
+        <point><value>0.0500048833</value><nits>4.9882</nits></point>
+        <point><value>0.0750073249</value><nits>6.7986</nits></point>
+        <point><value>0.1000097666</value><nits>9.8629</nits></point>
+        <point><value>0.1250122082</value><nits>14.4212</nits></point>
+        <point><value>0.1500146499</value><nits>20.3859</nits></point>
+        <point><value>0.1750170915</value><nits>28.2603</nits></point>
+        <point><value>0.2000195332</value><nits>37.7734</nits></point>
+        <point><value>0.2250219748</value><nits>48.9402</nits></point>
+        <point><value>0.2500244164</value><nits>62.0613</nits></point>
+        <point><value>0.2750268581</value><nits>76.9747</nits></point>
+        <point><value>0.3000292997</value><nits>93.4966</nits></point>
+        <point><value>0.3250317414</value><nits>111.7880</nits></point>
+        <point><value>0.3500341830</value><nits>131.9260</nits></point>
+        <point><value>0.3750366247</value><nits>153.4980</nits></point>
+        <point><value>0.4000390663</value><nits>177.3330</nits></point>
+        <point><value>0.4250415080</value><nits>202.5150</nits></point>
+        <point><value>0.4500439496</value><nits>230.0510</nits></point>
+        <point><value>0.4750463912</value><nits>258.6480</nits></point>
+        <point><value>0.5000488329</value><nits>289.7350</nits></point>
+        <point><value>0.5250512745</value><nits>321.8670</nits></point>
+        <point><value>0.5500537162</value><nits>356.8880</nits></point>
+        <point><value>0.5750561578</value><nits>393.4740</nits></point>
+        <point><value>0.6000585995</value><nits>432.0830</nits></point>
+        <point><value>0.6250610411</value><nits>471.8820</nits></point>
+        <point><value>0.6500634828</value><nits>514.8370</nits></point>
+        <point><value>0.6750659244</value><nits>559.7840</nits></point>
+        <point><value>0.7000683661</value><nits>605.1320</nits></point>
+        <point><value>0.7250708077</value><nits>655.1540</nits></point>
+        <point><value>0.7500732493</value><nits>704.2360</nits></point>
+        <point><value>0.7750756910</value><nits>757.4660</nits></point>
+        <point><value>0.7999804668</value><nits>811.1230</nits></point>
+        <point><value>0.8000781326</value><nits>811.5053</nits></point>
+        <point><value>0.8250805743</value><nits>909.3720</nits></point>
+        <point><value>0.8500830159</value><nits>1007.2388</nits></point>
+        <point><value>0.8750854576</value><nits>1105.1055</nits></point>
+        <point><value>0.9000878992</value><nits>1202.9723</nits></point>
+        <point><value>0.9250903409</value><nits>1300.8390</nits></point>
+        <point><value>0.9500927825</value><nits>1398.7058</nits></point>
+        <point><value>0.9750952241</value><nits>1496.5725</nits></point>
+        <point><value>1.0000000000</value><nits>1594.0570</nits></point>
+    </screenBrightnessMap>
+
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.7999804668</transitionPoint>
+        <minimumLux>40000</minimumLux>
+        <timing>
+            <!-- Stock has no time quota here for some reason. -->
+            <timeWindowSecs>86400</timeWindowSecs>
+            <timeMaxSecs>86400</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
+        </timing>
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+    </highBrightnessMode>
 </displayConfiguration>
