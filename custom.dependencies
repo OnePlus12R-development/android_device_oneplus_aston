@@ -1,5 +1,9 @@
 [
   {
+    "repository": "inferno0230/android_packages_apps_OplusParts",
+    "target_path": "packages/apps/OplusParts"
+  },
+  {
     "repository": "PixelOS-Devices/android_device_oneplus_sm8550-common",
     "target_path": "device/oneplus/sm8550-common"
   },
