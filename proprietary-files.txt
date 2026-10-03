@@ -1345,8 +1345,7 @@ odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
 # NFC configs
-odm/etc/nfc/libnfc-mtp-SN220.conf_23801:odm/etc/libnfc-mtp-SN220.conf_23801
-odm/etc/nfc/libnfc-mtp-SN220.conf_23861:odm/etc/libnfc-mtp-SN220.conf_23861
+odm/etc/nfc/libnfc-mtp-SN220.conf_23861:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_23861:vendor/etc/libnfc-nci.conf
 
 # NFC firmware

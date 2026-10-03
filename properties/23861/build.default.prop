@@ -2,6 +2,3 @@ import /odm/etc/${ro.boot.prjname}/build.${ro.boot.hardware.revision}.prop
 
 # Display
 persist.vendor.display.pxlw.iris_feature=0x407f0780
-
-# NFC
-persist.vendor.nfc.config_file_name=libnfc-mtp-SN220.conf_23861
