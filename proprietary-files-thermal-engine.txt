@@ -1,0 +1,8 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from OnePlus 12R (CPH2585_16.0.5.1301(EX01)).
+
+# Thermal engine
+odm/etc/temperature_profile/sys_thermal_control_config.xml
+system_ext/etc/horae/horae.conf;EXTRACT_ONLY
+system_ext/etc/horae/horae_SM8550.conf;EXTRACT_ONLY
+vendor/etc/thermal-engine.conf
