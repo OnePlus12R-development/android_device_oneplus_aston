@@ -64,5 +64,53 @@
             <timeMinSecs>0</timeMinSecs>
         </timing>
         <allowInLowPowerMode>false</allowInLowPowerMode>
+        <sdrHdrRatioMap>
+            <point><sdrNits>2.0000</sdrNits><hdrRatio>3.0000</hdrRatio></point>
+            <point><sdrNits>59.9000</sdrNits><hdrRatio>3.0000</hdrRatio></point>
+            <point><sdrNits>60.0000</sdrNits><hdrRatio>6.0000</hdrRatio></point>
+            <point><sdrNits>200.0000</sdrNits><hdrRatio>6.0000</hdrRatio></point>
+            <point><sdrNits>225.0000</sdrNits><hdrRatio>5.3333</hdrRatio></point>
+            <point><sdrNits>250.0000</sdrNits><hdrRatio>4.8000</hdrRatio></point>
+            <point><sdrNits>275.0000</sdrNits><hdrRatio>4.3636</hdrRatio></point>
+            <point><sdrNits>300.0000</sdrNits><hdrRatio>4.0000</hdrRatio></point>
+            <point><sdrNits>325.0000</sdrNits><hdrRatio>3.6923</hdrRatio></point>
+            <point><sdrNits>350.0000</sdrNits><hdrRatio>3.4286</hdrRatio></point>
+            <point><sdrNits>375.0000</sdrNits><hdrRatio>3.2000</hdrRatio></point>
+            <point><sdrNits>400.0000</sdrNits><hdrRatio>3.0000</hdrRatio></point>
+            <point><sdrNits>425.0000</sdrNits><hdrRatio>2.8235</hdrRatio></point>
+            <point><sdrNits>450.0000</sdrNits><hdrRatio>2.6667</hdrRatio></point>
+            <point><sdrNits>475.0000</sdrNits><hdrRatio>2.5263</hdrRatio></point>
+            <point><sdrNits>500.0000</sdrNits><hdrRatio>2.4000</hdrRatio></point>
+            <point><sdrNits>525.0000</sdrNits><hdrRatio>2.2857</hdrRatio></point>
+            <point><sdrNits>550.0000</sdrNits><hdrRatio>2.1818</hdrRatio></point>
+            <point><sdrNits>575.0000</sdrNits><hdrRatio>2.0870</hdrRatio></point>
+            <point><sdrNits>600.0000</sdrNits><hdrRatio>2.0000</hdrRatio></point>
+            <point><sdrNits>625.0000</sdrNits><hdrRatio>1.9200</hdrRatio></point>
+            <point><sdrNits>650.0000</sdrNits><hdrRatio>1.8462</hdrRatio></point>
+            <point><sdrNits>675.0000</sdrNits><hdrRatio>1.7778</hdrRatio></point>
+            <point><sdrNits>700.0000</sdrNits><hdrRatio>1.7143</hdrRatio></point>
+            <point><sdrNits>725.0000</sdrNits><hdrRatio>1.6552</hdrRatio></point>
+            <point><sdrNits>750.0000</sdrNits><hdrRatio>1.6000</hdrRatio></point>
+            <point><sdrNits>775.0000</sdrNits><hdrRatio>1.5484</hdrRatio></point>
+            <point><sdrNits>800.0000</sdrNits><hdrRatio>1.5000</hdrRatio></point>
+            <point><sdrNits>811.0000</sdrNits><hdrRatio>1.4797</hdrRatio></point>
+            <point><sdrNits>812.0000</sdrNits><hdrRatio>1.9704</hdrRatio></point>
+            <point><sdrNits>850.0000</sdrNits><hdrRatio>1.8824</hdrRatio></point>
+            <point><sdrNits>900.0000</sdrNits><hdrRatio>1.7778</hdrRatio></point>
+            <point><sdrNits>950.0000</sdrNits><hdrRatio>1.6842</hdrRatio></point>
+            <point><sdrNits>1000.0000</sdrNits><hdrRatio>1.6000</hdrRatio></point>
+            <point><sdrNits>1050.0000</sdrNits><hdrRatio>1.5238</hdrRatio></point>
+            <point><sdrNits>1100.0000</sdrNits><hdrRatio>1.4545</hdrRatio></point>
+            <point><sdrNits>1150.0000</sdrNits><hdrRatio>1.3913</hdrRatio></point>
+            <point><sdrNits>1200.0000</sdrNits><hdrRatio>1.3333</hdrRatio></point>
+            <point><sdrNits>1250.0000</sdrNits><hdrRatio>1.2800</hdrRatio></point>
+            <point><sdrNits>1300.0000</sdrNits><hdrRatio>1.2308</hdrRatio></point>
+            <point><sdrNits>1350.0000</sdrNits><hdrRatio>1.1852</hdrRatio></point>
+            <point><sdrNits>1400.0000</sdrNits><hdrRatio>1.1429</hdrRatio></point>
+            <point><sdrNits>1450.0000</sdrNits><hdrRatio>1.1034</hdrRatio></point>
+            <point><sdrNits>1500.0000</sdrNits><hdrRatio>1.0667</hdrRatio></point>
+            <point><sdrNits>1550.0000</sdrNits><hdrRatio>1.0323</hdrRatio></point>
+            <point><sdrNits>1594.0570</sdrNits><hdrRatio>1.0037</hdrRatio></point>
+        </sdrHdrRatioMap>
     </highBrightnessMode>
 </displayConfiguration>
