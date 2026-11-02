@@ -20,6 +20,7 @@ from extract_utils_oplus import (
     add_generated_thermal_engine_config,
 )
 
+
 namespace_imports = [
     'hardware/oplus',
     'hardware/pixelworks/interfaces',
@@ -56,6 +57,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     (
+        'odm/lib64/libEISLive.so',
         'odm/lib64/libHIS.so',
         'odm/lib64/libOGLManager.so',
         'odm/lib64/libOPAlgoCamFaceBeautyCap.so'

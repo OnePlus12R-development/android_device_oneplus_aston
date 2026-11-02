@@ -901,6 +901,7 @@ odm/lib64/libCS.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
 odm/lib64/libEIS.so
+odm/lib64/libEISLive.so
 odm/lib64/libFDClite.so
 odm/lib64/libFaceBeautyCap.so
 odm/lib64/libFaceBeautyJni.so
